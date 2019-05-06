@@ -40,7 +40,7 @@ build:
 test:
   categories:
     except:
-    - Integration
+    - Integration - Email
 
 artifacts:
  - path: '**\*.nupkg'
