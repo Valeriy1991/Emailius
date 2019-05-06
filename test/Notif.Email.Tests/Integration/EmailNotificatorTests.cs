@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Net.Http;
@@ -14,6 +15,7 @@ namespace Notif.Email.Tests.Integration
 {
     [ExcludeFromCodeCoverage]
     [Trait("Category", "Integration - Email")]
+    [Category("Integration")]
     public class EmailNotificatorTests
     {
         private readonly Faker _faker = new Faker();

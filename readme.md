@@ -11,16 +11,12 @@ Notif.Email|[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Notif.Email.
 
 ## Builds
 
-TODO
-<!--
 Branch|Build status
 -|-
-dev|[![Build status](https://ci.appveyor.com/api/projects/status/34jm9uvmxlnjx32n/branch/dev?svg=true)](https://ci.appveyor.com/project/Valeriy1991/scheduler-quartz/branch/dev)
+dev|[![Build status](https://ci.appveyor.com/api/projects/status/0hb2hnxb8fl4irt6/branch/dev?svg=true)](https://ci.appveyor.com/project/Valeriy1991/notif/branch/dev)
 
 AppVeyor Nuget project feed: 
-https://ci.appveyor.com/nuget/scheduler-quartz-47b9607klagb
--->
-
+https://ci.appveyor.com/nuget/notif-g3ia61f222q6
 
 ## Include packages:
 
