@@ -1,7 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>alpha</VersionSuffix>
+    <Authors>Abakumov Valeriy</Authors>
+    <Company />
+    <Product />
+    <Description>Notif.Email - email notificaions for .NET Standard</Description>
+    <PackageProjectUrl>https://github.com/Valeriy1991/Notif</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Valeriy1991/Notif</RepositoryUrl>
+    <PackageTags>Notif Email Mail Notificaion ASP.NET .Net Core Standard</PackageTags>
+    <PackageVersion />
   </PropertyGroup>
 
   <ItemGroup>
