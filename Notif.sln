@@ -3,7 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28306.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notif.Abstractions", "Notif.Abstractions\Notif.Abstractions.csproj", "{7FE57CE4-2753-44ED-B3C4-86516C347DF7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0C9A724D-A787-4676-861E-C00BC9E83F7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{858481EB-5639-4956-AECF-E766A707F987}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notif.Abstractions", "src\Notif.Abstractions\Notif.Abstractions.csproj", "{991D50BF-3A23-4873-B0E6-A3BAC322BBF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notif.Email", "src\Notif.Email\Notif.Email.csproj", "{272035C1-286F-4AF9-86AD-9E50F691A24D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notif.Email.Tests", "test\Notif.Email.Tests\Notif.Email.Tests.csproj", "{A31C907F-A03C-4699-9823-BF969C3128B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{95DF4F3A-A719-4713-975B-1121EA593C51}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp.ServiceProvider", "example\ConsoleApp.ServiceProvider\ConsoleApp.ServiceProvider.csproj", "{B1A8FBA0-F2F2-44B6-821C-295C5153F9E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{053005A6-6797-41C0-B54E-DB8778B6465E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +28,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7FE57CE4-2753-44ED-B3C4-86516C347DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7FE57CE4-2753-44ED-B3C4-86516C347DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7FE57CE4-2753-44ED-B3C4-86516C347DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7FE57CE4-2753-44ED-B3C4-86516C347DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991D50BF-3A23-4873-B0E6-A3BAC322BBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991D50BF-3A23-4873-B0E6-A3BAC322BBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991D50BF-3A23-4873-B0E6-A3BAC322BBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991D50BF-3A23-4873-B0E6-A3BAC322BBF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{272035C1-286F-4AF9-86AD-9E50F691A24D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272035C1-286F-4AF9-86AD-9E50F691A24D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272035C1-286F-4AF9-86AD-9E50F691A24D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272035C1-286F-4AF9-86AD-9E50F691A24D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31C907F-A03C-4699-9823-BF969C3128B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31C907F-A03C-4699-9823-BF969C3128B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31C907F-A03C-4699-9823-BF969C3128B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31C907F-A03C-4699-9823-BF969C3128B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A8FBA0-F2F2-44B6-821C-295C5153F9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A8FBA0-F2F2-44B6-821C-295C5153F9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A8FBA0-F2F2-44B6-821C-295C5153F9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A8FBA0-F2F2-44B6-821C-295C5153F9E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{991D50BF-3A23-4873-B0E6-A3BAC322BBF1} = {0C9A724D-A787-4676-861E-C00BC9E83F7D}
+		{272035C1-286F-4AF9-86AD-9E50F691A24D} = {0C9A724D-A787-4676-861E-C00BC9E83F7D}
+		{A31C907F-A03C-4699-9823-BF969C3128B0} = {858481EB-5639-4956-AECF-E766A707F987}
+		{B1A8FBA0-F2F2-44B6-821C-295C5153F9E2} = {053005A6-6797-41C0-B54E-DB8778B6465E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8173B747-13E8-4E07-83E2-9DC9428983DB}
