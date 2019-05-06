@@ -15,7 +15,6 @@ namespace Notif.Email.Tests.Integration
 {
     [ExcludeFromCodeCoverage]
     [Trait("Category", "Integration - Email")]
-    [Category("Integration")]
     public class EmailNotificatorTests
     {
         private readonly Faker _faker = new Faker();
