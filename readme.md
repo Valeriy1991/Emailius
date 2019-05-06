@@ -21,7 +21,7 @@ https://ci.appveyor.com/nuget/notif-g3ia61f222q6
 ## Include packages:
 
 1. `Notif.Abstractions` - all based abstractions
-1. `Notif.Email` - email ([see more inside]((src/Notif.Email)))
+1. `Notif.Email` - email ([see more inside](src/Notif.Email))
 
 
 #### Examples:
